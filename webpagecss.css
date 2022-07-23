@@ -1,38 +1,68 @@
 body{
-    background-image: url('bgimg.jpg');
+    background-image: url('githublogo.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size:1800px;
+    background-attachment: fixed;
 }
 h1.banner{
     background-image: url('header.jpg');
-    height: 200px;
-    width:50%px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 *{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
 }
-p{
-    color: darkgray;
+.main{
+    background-color: #4834d4;
+    color: #c7ecee;
+
+    
 }
 b{
-    color: gray;
+    
+    font-size:26px ;
 }
 li{
-    color: lightgray;
+    
+    font-size: medium;
+    font-weight: lighter;
+    margin-bottom: 5px;
 }
+
 address{
     font-weight: bolder;
     color: antiquewhite;
     text-align: right;
+    background-image: url('bgimg.jpg');
+    background-size: 100%;
 }
 
 pre{
-    color: aquamarine;
-    font-size: 45px;
+    color: rgb(7, 60, 42);
+    font-size: 55px;
     text-align: left;
     margin-right: 20px;
+}
+video{
+    margin-left: 35%;
+    width: 400px;
+    height: 300px;
+}
+span.tut{
+    margin-left: 40%;
+    color: black;
+    background-color: purple;
+    font-weight:bolder ;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    border: 3px dotted black;
+    color: white;
+}
+a:active{
+    color: red;
 }
