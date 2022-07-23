@@ -1,0 +1,38 @@
+body{
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+h1.banner{
+    background-image: url('header.jpg');
+    height: 200px;
+    width:50%px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+p{
+    color: darkgray;
+}
+b{
+    color: gray;
+}
+li{
+    color: lightgray;
+}
+address{
+    font-weight: bolder;
+    color: antiquewhite;
+    text-align: right;
+}
+
+pre{
+    color: aquamarine;
+    font-size: 45px;
+    text-align: left;
+    margin-right: 20px;
+}
